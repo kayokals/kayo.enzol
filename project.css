@@ -1,0 +1,40 @@
+  body{
+      background-color: rgb(82, 53, 16);
+      color: white;
+}
+  nav ul li a:hover{
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+  nav ul li a{
+    text-decoration: none;
+    transition:0.5s;
+    animation-delay: 1s;
+}
+  nav ul li {
+    padding: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   }
+   nav ul li {
+      color: rgb(255, 0, 0);
+   }
+   footer h4 a:hover{
+      color: rgb(255, 0, 0);
+   }
+   footer h4{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+   }
+   footer{
+     width: 8%;
+    
+   }
+   footer h4 a{
+    color: rgb(250, 250, 255);
+    font-size: large;
+    font-style: oblique;
+    transition: 0.5s;
+   }
+   
