@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+  color: rgb(255, 255, 255);
+ align-items: center;
+ justify-content: center;
+  position: absolute;
+  display: flex;
+  justify-items: center;
+}
+.list{
+  color: rgb(165, 43, 165);
+  border: solid;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.Dropdawn-menu{
+  position: absolute;
+  box-shadow: 0 0 2px white;
+  display: none;
+}
+
+.Dropdawn-menu a{
+  display: block;
+  color: rgb(131, 53, 175);
+  padding: 10px;
+  font-size: 19px;
+}
+.Dropdawn:hover .Dropdawn-menu{
+  display: block;
+  padding: 5px;
+}
+ul li:hover{
+  color: blueviolet;
+  opacity: 69%;
+  height: 20px;
+  padding: 5px;
+  padding-block: 5px;
+}
+ul li a:hover{
+  background-color: rgb(255, 255, 255);
+}
+nav ul li a{
+  text-decoration: none;
+}
+  
+footer{
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  top: 500px;
+}
+footer h4{
+  color: blueviolet;
+}
+footer h4 a:hover{
+  color: rgb(255, 0, 0);
+  transition: 0.5s;
+}
+footer h4{
+  font-size: 15px;
+}
+footer h4 a{
+  font-size: 20px;
+}
+footer h4 a{
+  color: aliceblue;
+}
